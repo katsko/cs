@@ -30,4 +30,7 @@ Usage
    from linked_list import LinkedList
    ll = LinkedList()
    ll.insert(0, 'a')
-   ll.get_array()
+   ll.insert(1, 'b')
+   ll.get_array()  # ['a', 'b']
+   ll.delete(0)
+   ll.get_array()  # ['b']
