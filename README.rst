@@ -34,3 +34,25 @@ Usage
    ll.get_array()  # ['a', 'b']
    ll.delete(0)
    ll.get_array()  # ['b']
+
+Stack
+-----
+
+File
+````
+
+`stack.py <https://github.com/katsko/cs/blob/main/stack.py>`_
+
+Usage
+`````
+
+.. code-block:: python
+
+   from stack import Stack
+   stack = Stack()
+   stack.push('a')
+   stack.push('b')
+   stack.size  # 2
+   stack.peek()  # 'b'
+   stack.pop()  # 'b'
+   stack.pop()  # 'a'
